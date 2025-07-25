@@ -2,6 +2,12 @@
   "build": {
     "env": {
       "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
-    }
+    },
+    "builds": [
+      { "src": "dist/**", "use": "@vercel/static" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/index.html" }
+    ]
   }
 }
