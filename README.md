@@ -123,7 +123,9 @@ All relevant styles located in css/application.css.scss.
 
 ```bash
 $ npm install
-$ NODE_OPTIONS=--openssl-legacy-provider npm run build:dist
+$ cross-env NODE_OPTIONS=--openssl-legacy-provider npm run build:dist
+$ or
+$ npm start
 $ npm run serve:api
 $ NODE_OPTIONS=--openssl-legacy-provider npm run start
 ```
