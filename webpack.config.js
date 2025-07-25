@@ -5,7 +5,8 @@ module.exports = {
   entry: "./app.js",
   devtool: "source-map",
   output: {
-    path: path.resolve("./public"),
+    // path: path.resolve("./public"),
+    path: path.resolve(__dirname, 'dist'),
     filename: "app.js",
     publicPath: '/',
   },
