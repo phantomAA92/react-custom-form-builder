@@ -102,7 +102,7 @@ Read only signatures allow you to use a saved/canned signature to be placed into
 
 To use a read only signature, choose the "Read only" option and enter the key value of the variable that will be used to pass in the signature.
 
-![](screenshot2.png)
+![](screenshot3.png)
 
 The signature data should be in base 64 format.
 
